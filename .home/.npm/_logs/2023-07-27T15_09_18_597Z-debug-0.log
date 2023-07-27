@@ -1,0 +1,758 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.7.2
+2 info using node@v18.16.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/var/www/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 0ms
+11 timing config:load:file:/var/www/.home/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 6ms
+17 timing npm:load:configload Completed in 6ms
+18 timing config:load:flatten Completed in 41ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install @inertiajs/vue3
+22 verbose argv "install" "@inertiajs/vue3"
+23 timing npm:load:setTitle Completed in 0ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:/var/www/.home/.npm/_logs/2023-07-27T15_09_18_597Z-
+26 verbose logfile /var/www/.home/.npm/_logs/2023-07-27T15_09_18_597Z-debug-0.log
+27 timing npm:load:logFile Completed in 6ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 67ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing arborist:ctor Completed in 0ms
+34 timing idealTree:init Completed in 8ms
+35 timing idealTree:userRequests Completed in 1ms
+36 silly idealTree buildDeps
+37 silly fetch manifest @inertiajs/vue3@*
+38 http fetch GET 200 https://registry.npmjs.org/npm 132ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@inertiajs%2fvue3 1086ms (cache miss)
+40 silly fetch manifest vue@^3.0.0
+41 http fetch GET 200 https://registry.npmjs.org/vue 64ms (cache miss)
+42 silly fetch manifest axios@^1.1.2
+43 http fetch GET 200 https://registry.npmjs.org/axios 39ms (cache miss)
+44 silly fetch manifest laravel-vite-plugin@^0.7.5
+45 http fetch GET 200 https://registry.npmjs.org/laravel-vite-plugin 722ms (cache miss)
+46 silly fetch manifest vite@^4.0.0
+47 http fetch GET 200 https://registry.npmjs.org/vite 52ms (cache miss)
+48 silly fetch manifest @types/node@>= 14
+49 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 59ms (cache miss)
+50 silly fetch manifest less@*
+51 http fetch GET 200 https://registry.npmjs.org/less 31ms (cache miss)
+52 silly fetch manifest lightningcss@^1.21.0
+53 http fetch GET 200 https://registry.npmjs.org/lightningcss 686ms (cache miss)
+54 silly fetch manifest sass@*
+55 http fetch GET 200 https://registry.npmjs.org/sass 40ms (cache miss)
+56 silly fetch manifest stylus@*
+57 http fetch GET 200 https://registry.npmjs.org/stylus 33ms (cache miss)
+58 silly fetch manifest sugarss@*
+59 http fetch GET 200 https://registry.npmjs.org/sugarss 27ms (cache miss)
+60 silly fetch manifest postcss@^8.3.3
+61 http fetch GET 200 https://registry.npmjs.org/postcss 33ms (cache miss)
+62 silly fetch manifest terser@^5.4.0
+63 http fetch GET 200 https://registry.npmjs.org/terser 31ms (cache miss)
+64 silly placeDep ROOT @inertiajs/vue3@1.0.9 OK for:  want: *
+65 silly placeDep ROOT vue@3.3.4 OK for: @inertiajs/vue3@1.0.9 want: ^3.0.0
+66 silly fetch manifest @inertiajs/core@1.0.9
+67 silly fetch manifest lodash.clonedeep@^4.5.0
+68 silly fetch manifest lodash.isequal@^4.5.0
+69 silly fetch manifest @vue/shared@3.3.4
+70 silly fetch manifest @vue/compiler-dom@3.3.4
+71 silly fetch manifest @vue/runtime-dom@3.3.4
+72 silly fetch manifest @vue/compiler-sfc@3.3.4
+73 silly fetch manifest @vue/server-renderer@3.3.4
+74 silly placeDep ROOT axios@1.4.0 OK for:  want: ^1.1.2
+75 silly fetch manifest follow-redirects@^1.15.0
+76 silly fetch manifest form-data@^4.0.0
+77 silly fetch manifest proxy-from-env@^1.1.0
+78 silly placeDep ROOT laravel-vite-plugin@0.7.8 OK for:  want: ^0.7.5
+79 silly placeDep ROOT vite@4.4.7 OK for: laravel-vite-plugin@0.7.8 want: ^3.0.0 || ^4.0.0
+80 silly fetch manifest picocolors@^1.0.0
+81 silly fetch manifest vite-plugin-full-reload@^1.0.5
+82 silly fetch manifest esbuild@^0.18.10
+83 silly fetch manifest postcss@^8.4.26
+84 silly fetch manifest rollup@^3.25.2
+85 silly fetch manifest fsevents@~2.3.2
+86 http fetch GET 200 https://registry.npmjs.org/proxy-from-env 97ms (cache miss)
+87 http fetch GET 200 https://registry.npmjs.org/picocolors 91ms (cache miss)
+88 http fetch GET 200 https://registry.npmjs.org/lodash.isequal 110ms (cache miss)
+89 http fetch GET 200 https://registry.npmjs.org/form-data 150ms (cache miss)
+90 http fetch GET 200 https://registry.npmjs.org/follow-redirects 158ms (cache miss)
+91 http fetch GET 200 https://registry.npmjs.org/fsevents 146ms (cache miss)
+92 http fetch GET 200 https://registry.npmjs.org/@vue%2fshared 237ms (cache miss)
+93 http fetch GET 200 https://registry.npmjs.org/@vue%2fcompiler-dom 238ms (cache miss)
+94 http fetch GET 200 https://registry.npmjs.org/@vue%2fserver-renderer 237ms (cache miss)
+95 http fetch GET 200 https://registry.npmjs.org/@vue%2fruntime-dom 239ms (cache miss)
+96 http fetch GET 200 https://registry.npmjs.org/@vue%2fcompiler-sfc 240ms (cache miss)
+97 http fetch GET 200 https://registry.npmjs.org/esbuild 226ms (cache miss)
+98 http fetch GET 200 https://registry.npmjs.org/rollup 232ms (cache miss)
+99 http fetch GET 200 https://registry.npmjs.org/lodash.clonedeep 263ms (cache miss)
+100 http fetch GET 200 https://registry.npmjs.org/vite-plugin-full-reload 728ms (cache miss)
+101 http fetch GET 200 https://registry.npmjs.org/@inertiajs%2fcore 1072ms (cache miss)
+102 timing idealTree:#root Completed in 4060ms
+103 silly placeDep ROOT @inertiajs/core@1.0.9 OK for: @inertiajs/vue3@1.0.9 want: 1.0.9
+104 silly fetch manifest deepmerge@^4.0.0
+105 silly fetch manifest nprogress@^0.2.0
+106 silly fetch manifest qs@^6.9.0
+107 silly placeDep ROOT lodash.clonedeep@4.5.0 OK for: @inertiajs/vue3@1.0.9 want: ^4.5.0
+108 silly placeDep ROOT lodash.isequal@4.5.0 OK for: @inertiajs/vue3@1.0.9 want: ^4.5.0
+109 http fetch GET 200 https://registry.npmjs.org/deepmerge 30ms (cache miss)
+110 http fetch GET 200 https://registry.npmjs.org/nprogress 33ms (cache miss)
+111 http fetch GET 200 https://registry.npmjs.org/qs 49ms (cache miss)
+112 timing idealTree:node_modules/@inertiajs/vue3 Completed in 57ms
+113 silly placeDep ROOT deepmerge@4.3.1 OK for: @inertiajs/core@1.0.9 want: ^4.0.0
+114 silly placeDep ROOT nprogress@0.2.0 OK for: @inertiajs/core@1.0.9 want: ^0.2.0
+115 silly placeDep ROOT qs@6.11.2 OK for: @inertiajs/core@1.0.9 want: ^6.9.0
+116 silly fetch manifest side-channel@^1.0.4
+117 http fetch GET 200 https://registry.npmjs.org/side-channel 31ms (cache miss)
+118 timing idealTree:node_modules/@inertiajs/core Completed in 37ms
+119 silly placeDep ROOT follow-redirects@1.15.2 OK for: axios@1.4.0 want: ^1.15.0
+120 silly placeDep ROOT form-data@4.0.0 OK for: axios@1.4.0 want: ^4.0.0
+121 silly fetch manifest asynckit@^0.4.0
+122 silly fetch manifest combined-stream@^1.0.8
+123 silly fetch manifest mime-types@^2.1.12
+124 silly placeDep ROOT proxy-from-env@1.1.0 OK for: axios@1.4.0 want: ^1.1.0
+125 http fetch GET 200 https://registry.npmjs.org/asynckit 39ms (cache miss)
+126 http fetch GET 200 https://registry.npmjs.org/mime-types 37ms (cache miss)
+127 http fetch GET 200 https://registry.npmjs.org/combined-stream 55ms (cache miss)
+128 timing idealTree:node_modules/axios Completed in 60ms
+129 timing idealTree:node_modules/deepmerge Completed in 0ms
+130 timing idealTree:node_modules/follow-redirects Completed in 0ms
+131 silly placeDep ROOT asynckit@0.4.0 OK for: form-data@4.0.0 want: ^0.4.0
+132 silly placeDep ROOT combined-stream@1.0.8 OK for: form-data@4.0.0 want: ^1.0.8
+133 silly fetch manifest delayed-stream@~1.0.0
+134 silly placeDep ROOT mime-types@2.1.35 OK for: form-data@4.0.0 want: ^2.1.12
+135 silly fetch manifest mime-db@1.52.0
+136 http fetch GET 200 https://registry.npmjs.org/mime-db 34ms (cache miss)
+137 http fetch GET 200 https://registry.npmjs.org/delayed-stream 39ms (cache miss)
+138 timing idealTree:node_modules/form-data Completed in 46ms
+139 timing idealTree:node_modules/asynckit Completed in 0ms
+140 silly placeDep ROOT delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+141 timing idealTree:node_modules/combined-stream Completed in 2ms
+142 timing idealTree:node_modules/delayed-stream Completed in 0ms
+143 silly fetch manifest vite@^3.0.0 || ^4.0.0
+144 silly placeDep ROOT picocolors@1.0.0 OK for: laravel-vite-plugin@0.7.8 want: ^1.0.0
+145 silly placeDep ROOT vite-plugin-full-reload@1.0.5 OK for: laravel-vite-plugin@0.7.8 want: ^1.0.5
+146 silly fetch manifest picomatch@^2.3.1
+147 http fetch GET 200 https://registry.npmjs.org/picomatch 46ms (cache miss)
+148 timing idealTree:node_modules/laravel-vite-plugin Completed in 54ms
+149 timing idealTree:node_modules/lodash.clonedeep Completed in 0ms
+150 timing idealTree:node_modules/lodash.isequal Completed in 0ms
+151 silly placeDep ROOT mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+152 timing idealTree:node_modules/mime-types Completed in 2ms
+153 timing idealTree:node_modules/mime-db Completed in 0ms
+154 timing idealTree:node_modules/nprogress Completed in 0ms
+155 timing idealTree:node_modules/picocolors Completed in 0ms
+156 timing idealTree:node_modules/proxy-from-env Completed in 0ms
+157 silly placeDep ROOT side-channel@1.0.4 OK for: qs@6.11.2 want: ^1.0.4
+158 silly fetch manifest call-bind@^1.0.0
+159 silly fetch manifest get-intrinsic@^1.0.2
+160 silly fetch manifest object-inspect@^1.9.0
+161 http fetch GET 200 https://registry.npmjs.org/get-intrinsic 30ms (cache miss)
+162 http fetch GET 200 https://registry.npmjs.org/object-inspect 36ms (cache miss)
+163 http fetch GET 200 https://registry.npmjs.org/call-bind 48ms (cache miss)
+164 timing idealTree:node_modules/qs Completed in 50ms
+165 silly placeDep ROOT call-bind@1.0.2 OK for: side-channel@1.0.4 want: ^1.0.0
+166 silly fetch manifest function-bind@^1.1.1
+167 silly placeDep ROOT get-intrinsic@1.2.1 OK for: side-channel@1.0.4 want: ^1.0.2
+168 silly fetch manifest has@^1.0.3
+169 silly fetch manifest has-proto@^1.0.1
+170 silly fetch manifest has-symbols@^1.0.3
+171 silly placeDep ROOT object-inspect@1.12.3 OK for: side-channel@1.0.4 want: ^1.9.0
+172 http fetch GET 200 https://registry.npmjs.org/function-bind 33ms (cache miss)
+173 http fetch GET 200 https://registry.npmjs.org/has 36ms (cache miss)
+174 http fetch GET 200 https://registry.npmjs.org/has-symbols 38ms (cache miss)
+175 http fetch GET 200 https://registry.npmjs.org/has-proto 39ms (cache miss)
+176 timing idealTree:node_modules/side-channel Completed in 47ms
+177 silly placeDep ROOT function-bind@1.1.1 OK for: call-bind@1.0.2 want: ^1.1.1
+178 timing idealTree:node_modules/call-bind Completed in 2ms
+179 timing idealTree:node_modules/function-bind Completed in 0ms
+180 silly placeDep ROOT has@1.0.3 OK for: get-intrinsic@1.2.1 want: ^1.0.3
+181 silly placeDep ROOT has-proto@1.0.1 OK for: get-intrinsic@1.2.1 want: ^1.0.1
+182 silly placeDep ROOT has-symbols@1.0.3 OK for: get-intrinsic@1.2.1 want: ^1.0.3
+183 timing idealTree:node_modules/get-intrinsic Completed in 5ms
+184 timing idealTree:node_modules/has Completed in 0ms
+185 timing idealTree:node_modules/has-proto Completed in 0ms
+186 timing idealTree:node_modules/has-symbols Completed in 0ms
+187 timing idealTree:node_modules/object-inspect Completed in 0ms
+188 silly placeDep ROOT esbuild@0.18.17 OK for: vite@4.4.7 want: ^0.18.10
+189 silly fetch manifest @esbuild/android-arm@0.18.17
+190 silly fetch manifest @esbuild/android-arm64@0.18.17
+191 silly fetch manifest @esbuild/android-x64@0.18.17
+192 silly fetch manifest @esbuild/darwin-arm64@0.18.17
+193 silly fetch manifest @esbuild/darwin-x64@0.18.17
+194 silly fetch manifest @esbuild/freebsd-arm64@0.18.17
+195 silly fetch manifest @esbuild/freebsd-x64@0.18.17
+196 silly fetch manifest @esbuild/linux-arm@0.18.17
+197 silly fetch manifest @esbuild/linux-arm64@0.18.17
+198 silly fetch manifest @esbuild/linux-ia32@0.18.17
+199 silly fetch manifest @esbuild/linux-loong64@0.18.17
+200 silly fetch manifest @esbuild/linux-mips64el@0.18.17
+201 silly fetch manifest @esbuild/linux-ppc64@0.18.17
+202 silly fetch manifest @esbuild/linux-riscv64@0.18.17
+203 silly fetch manifest @esbuild/linux-s390x@0.18.17
+204 silly fetch manifest @esbuild/linux-x64@0.18.17
+205 silly fetch manifest @esbuild/netbsd-x64@0.18.17
+206 silly fetch manifest @esbuild/openbsd-x64@0.18.17
+207 silly fetch manifest @esbuild/sunos-x64@0.18.17
+208 silly fetch manifest @esbuild/win32-arm64@0.18.17
+209 silly fetch manifest @esbuild/win32-ia32@0.18.17
+210 silly fetch manifest @esbuild/win32-x64@0.18.17
+211 silly placeDep ROOT fsevents@2.3.2 OK for: vite@4.4.7 want: ~2.3.2
+212 silly placeDep ROOT postcss@8.4.27 OK for: vite@4.4.7 want: ^8.4.26
+213 silly fetch manifest nanoid@^3.3.6
+214 silly fetch manifest source-map-js@^1.0.2
+215 silly placeDep ROOT rollup@3.26.3 OK for: vite@4.4.7 want: ^3.25.2
+216 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-x64 111ms (cache miss)
+217 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm64 115ms (cache miss)
+218 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-x64 111ms (cache miss)
+219 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ia32 106ms (cache miss)
+220 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 112ms (cache miss)
+221 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm 109ms (cache miss)
+222 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm 118ms (cache miss)
+223 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-loong64 107ms (cache miss)
+224 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-x64 118ms (cache miss)
+225 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm64 112ms (cache miss)
+226 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-mips64el 109ms (cache miss)
+227 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-arm64 120ms (cache miss)
+228 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ppc64 109ms (cache miss)
+229 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-s390x 111ms (cache miss)
+230 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-riscv64 113ms (cache miss)
+231 http fetch GET 200 https://registry.npmjs.org/nanoid 105ms (cache miss)
+232 http fetch GET 200 https://registry.npmjs.org/source-map-js 105ms (cache miss)
+233 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-x64 183ms (cache miss)
+234 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenbsd-x64 183ms (cache miss)
+235 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fnetbsd-x64 185ms (cache miss)
+236 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fsunos-x64 183ms (cache miss)
+237 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-ia32 182ms (cache miss)
+238 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-x64 182ms (cache miss)
+239 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-arm64 788ms (cache miss)
+240 timing idealTree:node_modules/vite Completed in 814ms
+241 silly placeDep ROOT @esbuild/android-arm@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+242 silly placeDep ROOT @esbuild/android-arm64@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+243 silly placeDep ROOT @esbuild/android-x64@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+244 silly placeDep ROOT @esbuild/darwin-arm64@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+245 silly placeDep ROOT @esbuild/darwin-x64@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+246 silly placeDep ROOT @esbuild/freebsd-arm64@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+247 silly placeDep ROOT @esbuild/freebsd-x64@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+248 silly placeDep ROOT @esbuild/linux-arm@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+249 silly placeDep ROOT @esbuild/linux-arm64@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+250 silly placeDep ROOT @esbuild/linux-ia32@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+251 silly placeDep ROOT @esbuild/linux-loong64@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+252 silly placeDep ROOT @esbuild/linux-mips64el@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+253 silly placeDep ROOT @esbuild/linux-ppc64@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+254 silly placeDep ROOT @esbuild/linux-riscv64@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+255 silly placeDep ROOT @esbuild/linux-s390x@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+256 silly placeDep ROOT @esbuild/linux-x64@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+257 silly placeDep ROOT @esbuild/netbsd-x64@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+258 silly placeDep ROOT @esbuild/openbsd-x64@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+259 silly placeDep ROOT @esbuild/sunos-x64@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+260 silly placeDep ROOT @esbuild/win32-arm64@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+261 silly placeDep ROOT @esbuild/win32-ia32@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+262 silly placeDep ROOT @esbuild/win32-x64@0.18.17 OK for: esbuild@0.18.17 want: 0.18.17
+263 timing idealTree:node_modules/esbuild Completed in 24ms
+264 timing idealTree:node_modules/@esbuild/android-arm Completed in 0ms
+265 timing idealTree:node_modules/@esbuild/android-arm64 Completed in 0ms
+266 timing idealTree:node_modules/@esbuild/android-x64 Completed in 0ms
+267 timing idealTree:node_modules/@esbuild/darwin-arm64 Completed in 0ms
+268 timing idealTree:node_modules/@esbuild/darwin-x64 Completed in 0ms
+269 timing idealTree:node_modules/@esbuild/freebsd-arm64 Completed in 0ms
+270 timing idealTree:node_modules/@esbuild/freebsd-x64 Completed in 0ms
+271 timing idealTree:node_modules/@esbuild/linux-arm Completed in 0ms
+272 timing idealTree:node_modules/@esbuild/linux-arm64 Completed in 0ms
+273 timing idealTree:node_modules/@esbuild/linux-ia32 Completed in 0ms
+274 timing idealTree:node_modules/@esbuild/linux-loong64 Completed in 0ms
+275 timing idealTree:node_modules/@esbuild/linux-mips64el Completed in 0ms
+276 timing idealTree:node_modules/@esbuild/linux-ppc64 Completed in 0ms
+277 timing idealTree:node_modules/@esbuild/linux-riscv64 Completed in 0ms
+278 timing idealTree:node_modules/@esbuild/linux-s390x Completed in 0ms
+279 timing idealTree:node_modules/@esbuild/linux-x64 Completed in 0ms
+280 timing idealTree:node_modules/@esbuild/netbsd-x64 Completed in 0ms
+281 timing idealTree:node_modules/@esbuild/openbsd-x64 Completed in 1ms
+282 timing idealTree:node_modules/@esbuild/sunos-x64 Completed in 0ms
+283 timing idealTree:node_modules/@esbuild/win32-arm64 Completed in 0ms
+284 timing idealTree:node_modules/@esbuild/win32-ia32 Completed in 0ms
+285 timing idealTree:node_modules/@esbuild/win32-x64 Completed in 0ms
+286 timing idealTree:node_modules/fsevents Completed in 0ms
+287 silly placeDep ROOT nanoid@3.3.6 OK for: postcss@8.4.27 want: ^3.3.6
+288 silly placeDep ROOT source-map-js@1.0.2 OK for: postcss@8.4.27 want: ^1.0.2
+289 timing idealTree:node_modules/postcss Completed in 2ms
+290 timing idealTree:node_modules/nanoid Completed in 0ms
+291 timing idealTree:node_modules/rollup Completed in 0ms
+292 timing idealTree:node_modules/source-map-js Completed in 0ms
+293 silly placeDep ROOT picomatch@2.3.1 OK for: vite-plugin-full-reload@1.0.5 want: ^2.3.1
+294 timing idealTree:node_modules/vite-plugin-full-reload Completed in 1ms
+295 timing idealTree:node_modules/picomatch Completed in 0ms
+296 silly fetch manifest vue@3.3.4
+297 silly placeDep ROOT @vue/compiler-dom@3.3.4 OK for: vue@3.3.4 want: 3.3.4
+298 silly fetch manifest @vue/compiler-core@3.3.4
+299 silly placeDep ROOT @vue/compiler-sfc@3.3.4 OK for: vue@3.3.4 want: 3.3.4
+300 silly fetch manifest @babel/parser@^7.20.15
+301 silly fetch manifest @vue/compiler-ssr@3.3.4
+302 silly fetch manifest @vue/reactivity-transform@3.3.4
+303 silly fetch manifest estree-walker@^2.0.2
+304 silly fetch manifest magic-string@^0.30.0
+305 silly placeDep ROOT @vue/runtime-dom@3.3.4 OK for: vue@3.3.4 want: 3.3.4
+306 silly fetch manifest @vue/runtime-core@3.3.4
+307 silly fetch manifest csstype@^3.1.1
+308 silly placeDep ROOT @vue/server-renderer@3.3.4 OK for: vue@3.3.4 want: 3.3.4
+309 silly placeDep ROOT @vue/shared@3.3.4 OK for: vue@3.3.4 want: 3.3.4
+310 http fetch GET 200 https://registry.npmjs.org/estree-walker 48ms (cache miss)
+311 http fetch GET 200 https://registry.npmjs.org/magic-string 48ms (cache miss)
+312 http fetch GET 200 https://registry.npmjs.org/@babel%2fparser 57ms (cache miss)
+313 http fetch GET 200 https://registry.npmjs.org/csstype 51ms (cache miss)
+314 http fetch GET 200 https://registry.npmjs.org/@vue%2freactivity-transform 71ms (cache miss)
+315 http fetch GET 200 https://registry.npmjs.org/@vue%2fcompiler-core 80ms (cache miss)
+316 http fetch GET 200 https://registry.npmjs.org/@vue%2fcompiler-ssr 75ms (cache miss)
+317 http fetch GET 200 https://registry.npmjs.org/@vue%2fruntime-core 72ms (cache miss)
+318 timing idealTree:node_modules/vue Completed in 87ms
+319 silly placeDep ROOT @vue/compiler-core@3.3.4 OK for: @vue/compiler-dom@3.3.4 want: 3.3.4
+320 silly fetch manifest @babel/parser@^7.21.3
+321 timing idealTree:node_modules/@vue/compiler-dom Completed in 2ms
+322 silly placeDep ROOT @babel/parser@7.22.7 OK for: @vue/compiler-core@3.3.4 want: ^7.21.3
+323 silly placeDep ROOT estree-walker@2.0.2 OK for: @vue/compiler-core@3.3.4 want: ^2.0.2
+324 timing idealTree:node_modules/@vue/compiler-core Completed in 3ms
+325 timing idealTree:node_modules/@babel/parser Completed in 0ms
+326 silly placeDep ROOT @vue/compiler-ssr@3.3.4 OK for: @vue/compiler-sfc@3.3.4 want: 3.3.4
+327 silly placeDep ROOT @vue/reactivity-transform@3.3.4 OK for: @vue/compiler-sfc@3.3.4 want: 3.3.4
+328 silly placeDep ROOT magic-string@0.30.1 OK for: @vue/compiler-sfc@3.3.4 want: ^0.30.0
+329 silly fetch manifest @jridgewell/sourcemap-codec@^1.4.15
+330 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fsourcemap-codec 57ms (cache miss)
+331 timing idealTree:node_modules/@vue/compiler-sfc Completed in 62ms
+332 timing idealTree:node_modules/@vue/compiler-ssr Completed in 0ms
+333 timing idealTree:node_modules/@vue/reactivity-transform Completed in 0ms
+334 silly placeDep ROOT @vue/runtime-core@3.3.4 OK for: @vue/runtime-dom@3.3.4 want: 3.3.4
+335 silly fetch manifest @vue/reactivity@3.3.4
+336 silly placeDep ROOT csstype@3.1.2 OK for: @vue/runtime-dom@3.3.4 want: ^3.1.1
+337 http fetch GET 200 https://registry.npmjs.org/@vue%2freactivity 57ms (cache miss)
+338 timing idealTree:node_modules/@vue/runtime-dom Completed in 61ms
+339 silly placeDep ROOT @vue/reactivity@3.3.4 OK for: @vue/runtime-core@3.3.4 want: 3.3.4
+340 timing idealTree:node_modules/@vue/runtime-core Completed in 1ms
+341 timing idealTree:node_modules/@vue/reactivity Completed in 0ms
+342 timing idealTree:node_modules/@vue/server-renderer Completed in 0ms
+343 timing idealTree:node_modules/@vue/shared Completed in 0ms
+344 timing idealTree:node_modules/csstype Completed in 0ms
+345 timing idealTree:node_modules/estree-walker Completed in 1ms
+346 silly placeDep ROOT @jridgewell/sourcemap-codec@1.4.15 OK for: magic-string@0.30.1 want: ^1.4.15
+347 timing idealTree:node_modules/magic-string Completed in 1ms
+348 timing idealTree:node_modules/@jridgewell/sourcemap-codec Completed in 0ms
+349 timing idealTree:buildDeps Completed in 5486ms
+350 timing idealTree:fixDepFlags Completed in 2ms
+351 timing idealTree Completed in 5500ms
+352 timing reify:loadTrees Completed in 5501ms
+353 timing reify:diffTrees Completed in 3ms
+354 silly reify moves {}
+355 timing reify:retireShallow Completed in 1ms
+356 timing reify:createSparse Completed in 7ms
+357 timing reify:loadBundles Completed in 0ms
+358 silly audit bulk request {
+358 silly audit   '@inertiajs/vue3': [ '1.0.9' ],
+358 silly audit   vue: [ '3.3.4' ],
+358 silly audit   axios: [ '1.4.0' ],
+358 silly audit   'laravel-vite-plugin': [ '0.7.8' ],
+358 silly audit   vite: [ '4.4.7' ],
+358 silly audit   '@inertiajs/core': [ '1.0.9' ],
+358 silly audit   'lodash.clonedeep': [ '4.5.0' ],
+358 silly audit   'lodash.isequal': [ '4.5.0' ],
+358 silly audit   deepmerge: [ '4.3.1' ],
+358 silly audit   nprogress: [ '0.2.0' ],
+358 silly audit   qs: [ '6.11.2' ],
+358 silly audit   'follow-redirects': [ '1.15.2' ],
+358 silly audit   'form-data': [ '4.0.0' ],
+358 silly audit   'proxy-from-env': [ '1.1.0' ],
+358 silly audit   asynckit: [ '0.4.0' ],
+358 silly audit   'combined-stream': [ '1.0.8' ],
+358 silly audit   'mime-types': [ '2.1.35' ],
+358 silly audit   'delayed-stream': [ '1.0.0' ],
+358 silly audit   picocolors: [ '1.0.0' ],
+358 silly audit   'vite-plugin-full-reload': [ '1.0.5' ],
+358 silly audit   'mime-db': [ '1.52.0' ],
+358 silly audit   'side-channel': [ '1.0.4' ],
+358 silly audit   'call-bind': [ '1.0.2' ],
+358 silly audit   'get-intrinsic': [ '1.2.1' ],
+358 silly audit   'object-inspect': [ '1.12.3' ],
+358 silly audit   'function-bind': [ '1.1.1' ],
+358 silly audit   has: [ '1.0.3' ],
+358 silly audit   'has-proto': [ '1.0.1' ],
+358 silly audit   'has-symbols': [ '1.0.3' ],
+358 silly audit   esbuild: [ '0.18.17' ],
+358 silly audit   fsevents: [ '2.3.2' ],
+358 silly audit   postcss: [ '8.4.27' ],
+358 silly audit   rollup: [ '3.26.3' ],
+358 silly audit   '@esbuild/android-arm': [ '0.18.17' ],
+358 silly audit   '@esbuild/android-arm64': [ '0.18.17' ],
+358 silly audit   '@esbuild/android-x64': [ '0.18.17' ],
+358 silly audit   '@esbuild/darwin-arm64': [ '0.18.17' ],
+358 silly audit   '@esbuild/darwin-x64': [ '0.18.17' ],
+358 silly audit   '@esbuild/freebsd-arm64': [ '0.18.17' ],
+358 silly audit   '@esbuild/freebsd-x64': [ '0.18.17' ],
+358 silly audit   '@esbuild/linux-arm': [ '0.18.17' ],
+358 silly audit   '@esbuild/linux-arm64': [ '0.18.17' ],
+358 silly audit   '@esbuild/linux-ia32': [ '0.18.17' ],
+358 silly audit   '@esbuild/linux-loong64': [ '0.18.17' ],
+358 silly audit   '@esbuild/linux-mips64el': [ '0.18.17' ],
+358 silly audit   '@esbuild/linux-ppc64': [ '0.18.17' ],
+358 silly audit   '@esbuild/linux-riscv64': [ '0.18.17' ],
+358 silly audit   '@esbuild/linux-s390x': [ '0.18.17' ],
+358 silly audit   '@esbuild/linux-x64': [ '0.18.17' ],
+358 silly audit   '@esbuild/netbsd-x64': [ '0.18.17' ],
+358 silly audit   '@esbuild/openbsd-x64': [ '0.18.17' ],
+358 silly audit   '@esbuild/sunos-x64': [ '0.18.17' ],
+358 silly audit   '@esbuild/win32-arm64': [ '0.18.17' ],
+358 silly audit   '@esbuild/win32-ia32': [ '0.18.17' ],
+358 silly audit   '@esbuild/win32-x64': [ '0.18.17' ],
+358 silly audit   nanoid: [ '3.3.6' ],
+358 silly audit   'source-map-js': [ '1.0.2' ],
+358 silly audit   picomatch: [ '2.3.1' ],
+358 silly audit   '@vue/compiler-dom': [ '3.3.4' ],
+358 silly audit   '@vue/compiler-sfc': [ '3.3.4' ],
+358 silly audit   '@vue/runtime-dom': [ '3.3.4' ],
+358 silly audit   '@vue/server-renderer': [ '3.3.4' ],
+358 silly audit   '@vue/shared': [ '3.3.4' ],
+358 silly audit   '@vue/compiler-core': [ '3.3.4' ],
+358 silly audit   '@babel/parser': [ '7.22.7' ],
+358 silly audit   'estree-walker': [ '2.0.2' ],
+358 silly audit   '@vue/compiler-ssr': [ '3.3.4' ],
+358 silly audit   '@vue/reactivity-transform': [ '3.3.4' ],
+358 silly audit   'magic-string': [ '0.30.1' ],
+358 silly audit   '@vue/runtime-core': [ '3.3.4' ],
+358 silly audit   csstype: [ '3.1.2' ],
+358 silly audit   '@vue/reactivity': [ '3.3.4' ],
+358 silly audit   '@jridgewell/sourcemap-codec': [ '1.4.15' ]
+358 silly audit }
+359 verbose reify failed optional dependency /var/www/node_modules/@esbuild/win32-x64
+360 silly reify mark deleted [ '/var/www/node_modules/@esbuild/win32-x64' ]
+361 verbose reify failed optional dependency /var/www/node_modules/@esbuild/win32-ia32
+362 silly reify mark deleted [ '/var/www/node_modules/@esbuild/win32-ia32' ]
+363 verbose reify failed optional dependency /var/www/node_modules/@esbuild/win32-arm64
+364 silly reify mark deleted [ '/var/www/node_modules/@esbuild/win32-arm64' ]
+365 verbose reify failed optional dependency /var/www/node_modules/@esbuild/sunos-x64
+366 silly reify mark deleted [ '/var/www/node_modules/@esbuild/sunos-x64' ]
+367 verbose reify failed optional dependency /var/www/node_modules/@esbuild/openbsd-x64
+368 silly reify mark deleted [ '/var/www/node_modules/@esbuild/openbsd-x64' ]
+369 verbose reify failed optional dependency /var/www/node_modules/@esbuild/netbsd-x64
+370 silly reify mark deleted [ '/var/www/node_modules/@esbuild/netbsd-x64' ]
+371 verbose reify failed optional dependency /var/www/node_modules/@esbuild/linux-s390x
+372 silly reify mark deleted [ '/var/www/node_modules/@esbuild/linux-s390x' ]
+373 verbose reify failed optional dependency /var/www/node_modules/@esbuild/linux-riscv64
+374 silly reify mark deleted [ '/var/www/node_modules/@esbuild/linux-riscv64' ]
+375 verbose reify failed optional dependency /var/www/node_modules/@esbuild/linux-ppc64
+376 silly reify mark deleted [ '/var/www/node_modules/@esbuild/linux-ppc64' ]
+377 verbose reify failed optional dependency /var/www/node_modules/@esbuild/linux-mips64el
+378 silly reify mark deleted [ '/var/www/node_modules/@esbuild/linux-mips64el' ]
+379 verbose reify failed optional dependency /var/www/node_modules/@esbuild/linux-loong64
+380 silly reify mark deleted [ '/var/www/node_modules/@esbuild/linux-loong64' ]
+381 verbose reify failed optional dependency /var/www/node_modules/@esbuild/linux-ia32
+382 silly reify mark deleted [ '/var/www/node_modules/@esbuild/linux-ia32' ]
+383 verbose reify failed optional dependency /var/www/node_modules/@esbuild/linux-arm64
+384 silly reify mark deleted [ '/var/www/node_modules/@esbuild/linux-arm64' ]
+385 verbose reify failed optional dependency /var/www/node_modules/@esbuild/linux-arm
+386 silly reify mark deleted [ '/var/www/node_modules/@esbuild/linux-arm' ]
+387 verbose reify failed optional dependency /var/www/node_modules/@esbuild/freebsd-x64
+388 silly reify mark deleted [ '/var/www/node_modules/@esbuild/freebsd-x64' ]
+389 verbose reify failed optional dependency /var/www/node_modules/@esbuild/freebsd-arm64
+390 silly reify mark deleted [ '/var/www/node_modules/@esbuild/freebsd-arm64' ]
+391 verbose reify failed optional dependency /var/www/node_modules/@esbuild/darwin-x64
+392 silly reify mark deleted [ '/var/www/node_modules/@esbuild/darwin-x64' ]
+393 verbose reify failed optional dependency /var/www/node_modules/@esbuild/darwin-arm64
+394 silly reify mark deleted [ '/var/www/node_modules/@esbuild/darwin-arm64' ]
+395 verbose reify failed optional dependency /var/www/node_modules/@esbuild/android-x64
+396 silly reify mark deleted [ '/var/www/node_modules/@esbuild/android-x64' ]
+397 verbose reify failed optional dependency /var/www/node_modules/@esbuild/android-arm64
+398 silly reify mark deleted [ '/var/www/node_modules/@esbuild/android-arm64' ]
+399 verbose reify failed optional dependency /var/www/node_modules/@esbuild/android-arm
+400 silly reify mark deleted [ '/var/www/node_modules/@esbuild/android-arm' ]
+401 verbose reify failed optional dependency /var/www/node_modules/fsevents
+402 silly reify mark deleted [ '/var/www/node_modules/fsevents' ]
+403 timing reifyNode:node_modules/@esbuild/win32-x64 Completed in 12ms
+404 timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 12ms
+405 timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 12ms
+406 timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 12ms
+407 timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 12ms
+408 timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 12ms
+409 timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 12ms
+410 timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 12ms
+411 timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 12ms
+412 timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 12ms
+413 timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 12ms
+414 timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 12ms
+415 timing reifyNode:node_modules/@esbuild/linux-arm64 Completed in 12ms
+416 timing reifyNode:node_modules/@esbuild/linux-arm Completed in 12ms
+417 timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 12ms
+418 timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 12ms
+419 timing reifyNode:node_modules/@esbuild/darwin-x64 Completed in 13ms
+420 timing reifyNode:node_modules/@esbuild/darwin-arm64 Completed in 12ms
+421 timing reifyNode:node_modules/@esbuild/android-x64 Completed in 12ms
+422 timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 12ms
+423 timing reifyNode:node_modules/@esbuild/android-arm Completed in 12ms
+424 timing reifyNode:node_modules/fsevents Completed in 12ms
+425 silly tarball no local data for @jridgewell/sourcemap-codec@https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz. Extracting by manifest.
+426 silly tarball no local data for @vue/reactivity@https://registry.npmjs.org/@vue/reactivity/-/reactivity-3.3.4.tgz. Extracting by manifest.
+427 silly tarball no local data for @vue/runtime-core@https://registry.npmjs.org/@vue/runtime-core/-/runtime-core-3.3.4.tgz. Extracting by manifest.
+428 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.1.2.tgz. Extracting by manifest.
+429 silly tarball no local data for estree-walker@https://registry.npmjs.org/estree-walker/-/estree-walker-2.0.2.tgz. Extracting by manifest.
+430 silly tarball no local data for @vue/compiler-ssr@https://registry.npmjs.org/@vue/compiler-ssr/-/compiler-ssr-3.3.4.tgz. Extracting by manifest.
+431 silly tarball no local data for @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.22.7.tgz. Extracting by manifest.
+432 silly tarball no local data for magic-string@https://registry.npmjs.org/magic-string/-/magic-string-0.30.1.tgz. Extracting by manifest.
+433 silly tarball no local data for @vue/compiler-core@https://registry.npmjs.org/@vue/compiler-core/-/compiler-core-3.3.4.tgz. Extracting by manifest.
+434 silly tarball no local data for @vue/server-renderer@https://registry.npmjs.org/@vue/server-renderer/-/server-renderer-3.3.4.tgz. Extracting by manifest.
+435 silly tarball no local data for @vue/runtime-dom@https://registry.npmjs.org/@vue/runtime-dom/-/runtime-dom-3.3.4.tgz. Extracting by manifest.
+436 silly tarball no local data for @vue/compiler-dom@https://registry.npmjs.org/@vue/compiler-dom/-/compiler-dom-3.3.4.tgz. Extracting by manifest.
+437 silly tarball no local data for @vue/reactivity-transform@https://registry.npmjs.org/@vue/reactivity-transform/-/reactivity-transform-3.3.4.tgz. Extracting by manifest.
+438 silly tarball no local data for @vue/compiler-sfc@https://registry.npmjs.org/@vue/compiler-sfc/-/compiler-sfc-3.3.4.tgz. Extracting by manifest.
+439 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz. Extracting by manifest.
+440 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.6.tgz. Extracting by manifest.
+441 silly tarball no local data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz. Extracting by manifest.
+442 silly tarball no local data for rollup@https://registry.npmjs.org/rollup/-/rollup-3.26.3.tgz. Extracting by manifest.
+443 silly tarball no local data for @vue/shared@https://registry.npmjs.org/@vue/shared/-/shared-3.3.4.tgz. Extracting by manifest.
+444 silly tarball no local data for @esbuild/linux-x64@https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.18.17.tgz. Extracting by manifest.
+445 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.18.17.tgz. Extracting by manifest.
+446 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.27.tgz. Extracting by manifest.
+447 silly tarball no local data for has@https://registry.npmjs.org/has/-/has-1.0.3.tgz. Extracting by manifest.
+448 silly tarball no local data for has-symbols@https://registry.npmjs.org/has-symbols/-/has-symbols-1.0.3.tgz. Extracting by manifest.
+449 silly tarball no local data for has-proto@https://registry.npmjs.org/has-proto/-/has-proto-1.0.1.tgz. Extracting by manifest.
+450 silly tarball no local data for object-inspect@https://registry.npmjs.org/object-inspect/-/object-inspect-1.12.3.tgz. Extracting by manifest.
+451 silly tarball no local data for function-bind@https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz. Extracting by manifest.
+452 silly tarball no local data for call-bind@https://registry.npmjs.org/call-bind/-/call-bind-1.0.2.tgz. Extracting by manifest.
+453 silly tarball no local data for get-intrinsic@https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.1.tgz. Extracting by manifest.
+454 silly tarball no local data for mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz. Extracting by manifest.
+455 silly tarball no local data for side-channel@https://registry.npmjs.org/side-channel/-/side-channel-1.0.4.tgz. Extracting by manifest.
+456 silly tarball no local data for vite-plugin-full-reload@https://registry.npmjs.org/vite-plugin-full-reload/-/vite-plugin-full-reload-1.0.5.tgz. Extracting by manifest.
+457 silly tarball no local data for delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz. Extracting by manifest.
+458 silly tarball no local data for picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz. Extracting by manifest.
+459 silly tarball no local data for asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz. Extracting by manifest.
+460 silly tarball no local data for combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz. Extracting by manifest.
+461 silly tarball no local data for mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz. Extracting by manifest.
+462 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz. Extracting by manifest.
+463 silly tarball no local data for proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz. Extracting by manifest.
+464 silly tarball no local data for nprogress@https://registry.npmjs.org/nprogress/-/nprogress-0.2.0.tgz. Extracting by manifest.
+465 silly tarball no local data for form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.0.tgz. Extracting by manifest.
+466 silly tarball no local data for qs@https://registry.npmjs.org/qs/-/qs-6.11.2.tgz. Extracting by manifest.
+467 silly tarball no local data for lodash.isequal@https://registry.npmjs.org/lodash.isequal/-/lodash.isequal-4.5.0.tgz. Extracting by manifest.
+468 silly tarball no local data for deepmerge@https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.1.tgz. Extracting by manifest.
+469 silly tarball no local data for lodash.clonedeep@https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz. Extracting by manifest.
+470 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-4.4.7.tgz. Extracting by manifest.
+471 silly tarball no local data for @inertiajs/core@https://registry.npmjs.org/@inertiajs/core/-/core-1.0.9.tgz. Extracting by manifest.
+472 silly tarball no local data for vue@https://registry.npmjs.org/vue/-/vue-3.3.4.tgz. Extracting by manifest.
+473 silly tarball no local data for axios@https://registry.npmjs.org/axios/-/axios-1.4.0.tgz. Extracting by manifest.
+474 silly tarball no local data for laravel-vite-plugin@https://registry.npmjs.org/laravel-vite-plugin/-/laravel-vite-plugin-0.7.8.tgz. Extracting by manifest.
+475 silly tarball no local data for @inertiajs/vue3@https://registry.npmjs.org/@inertiajs/vue3/-/vue3-1.0.9.tgz. Extracting by manifest.
+476 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 247ms
+477 timing auditReport:getReport Completed in 250ms
+478 silly audit report {}
+479 timing auditReport:init Completed in 0ms
+480 timing reify:audit Completed in 252ms
+481 http fetch GET 200 https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz 426ms (cache miss)
+482 http fetch GET 200 https://registry.npmjs.org/has/-/has-1.0.3.tgz 475ms (cache miss)
+483 timing reifyNode:node_modules/has Completed in 507ms
+484 http fetch GET 200 https://registry.npmjs.org/estree-walker/-/estree-walker-2.0.2.tgz 487ms (cache miss)
+485 http fetch GET 200 https://registry.npmjs.org/@vue/compiler-ssr/-/compiler-ssr-3.3.4.tgz 486ms (cache miss)
+486 timing reifyNode:node_modules/@vue/compiler-ssr Completed in 512ms
+487 http fetch GET 200 https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz 477ms (cache miss)
+488 http fetch GET 200 https://registry.npmjs.org/@vue/reactivity-transform/-/reactivity-transform-3.3.4.tgz 487ms (cache miss)
+489 timing reifyNode:node_modules/@vue/reactivity-transform Completed in 516ms
+490 timing reifyNode:node_modules/@jridgewell/sourcemap-codec Completed in 516ms
+491 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.6.tgz 485ms (cache miss)
+492 http fetch GET 200 https://registry.npmjs.org/@vue/shared/-/shared-3.3.4.tgz 484ms (cache miss)
+493 timing reifyNode:node_modules/@vue/shared Completed in 516ms
+494 http fetch GET 200 https://registry.npmjs.org/has-symbols/-/has-symbols-1.0.3.tgz 482ms (cache miss)
+495 http fetch GET 200 https://registry.npmjs.org/has-proto/-/has-proto-1.0.1.tgz 482ms (cache miss)
+496 timing reifyNode:node_modules/has-proto Completed in 515ms
+497 http fetch GET 200 https://registry.npmjs.org/call-bind/-/call-bind-1.0.2.tgz 480ms (cache miss)
+498 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.18.17.tgz 486ms (cache miss)
+499 http fetch GET 200 https://registry.npmjs.org/side-channel/-/side-channel-1.0.4.tgz 482ms (cache miss)
+500 http fetch GET 200 https://registry.npmjs.org/vite-plugin-full-reload/-/vite-plugin-full-reload-1.0.5.tgz 481ms (cache miss)
+501 timing reifyNode:node_modules/vite-plugin-full-reload Completed in 518ms
+502 timing reifyNode:node_modules/side-channel Completed in 520ms
+503 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 481ms (cache miss)
+504 timing reifyNode:node_modules/combined-stream Completed in 520ms
+505 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 484ms (cache miss)
+506 timing reifyNode:node_modules/delayed-stream Completed in 521ms
+507 timing reifyNode:node_modules/call-bind Completed in 522ms
+508 timing reifyNode:node_modules/esbuild Completed in 523ms
+509 timing reifyNode:node_modules/function-bind Completed in 523ms
+510 http fetch GET 200 https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.1.tgz 488ms (cache miss)
+511 timing reifyNode:node_modules/get-intrinsic Completed in 523ms
+512 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 484ms (cache miss)
+513 timing reifyNode:node_modules/mime-types Completed in 523ms
+514 http fetch GET 200 https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.1.tgz 478ms (cache miss)
+515 http fetch GET 200 https://registry.npmjs.org/picocolors/-/picocolors-1.0.0.tgz 487ms (cache miss)
+516 timing reifyNode:node_modules/picocolors Completed in 525ms
+517 timing reifyNode:node_modules/has-symbols Completed in 526ms
+518 http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 489ms (cache miss)
+519 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-4.0.0.tgz 486ms (cache miss)
+520 timing reifyNode:node_modules/form-data Completed in 527ms
+521 http fetch GET 200 https://registry.npmjs.org/lodash.isequal/-/lodash.isequal-4.5.0.tgz 482ms (cache miss)
+522 timing reifyNode:node_modules/lodash.isequal Completed in 527ms
+523 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz 488ms (cache miss)
+524 timing reifyNode:node_modules/follow-redirects Completed in 528ms
+525 http fetch GET 200 https://registry.npmjs.org/nprogress/-/nprogress-0.2.0.tgz 487ms (cache miss)
+526 http fetch GET 200 https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz 482ms (cache miss)
+527 timing reifyNode:node_modules/lodash.clonedeep Completed in 528ms
+528 http fetch GET 200 https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 489ms (cache miss)
+529 timing reifyNode:node_modules/proxy-from-env Completed in 529ms
+530 timing reifyNode:node_modules/deepmerge Completed in 529ms
+531 timing reifyNode:node_modules/nprogress Completed in 529ms
+532 http fetch GET 200 https://registry.npmjs.org/laravel-vite-plugin/-/laravel-vite-plugin-0.7.8.tgz 480ms (cache miss)
+533 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 495ms (cache miss)
+534 timing reifyNode:node_modules/laravel-vite-plugin Completed in 530ms
+535 timing reifyNode:node_modules/mime-db Completed in 534ms
+536 http fetch GET 200 https://registry.npmjs.org/@vue/reactivity/-/reactivity-3.3.4.tgz 513ms (cache miss)
+537 timing reifyNode:node_modules/estree-walker Completed in 539ms
+538 timing reifyNode:node_modules/asynckit Completed in 538ms
+539 timing reifyNode:node_modules/@vue/reactivity Completed in 541ms
+540 http fetch GET 200 https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz 510ms (cache miss)
+541 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 516ms (cache miss)
+542 timing reifyNode:node_modules/picomatch Completed in 545ms
+543 timing reifyNode:node_modules/source-map-js Completed in 545ms
+544 timing reifyNode:node_modules/nanoid Completed in 546ms
+545 http fetch GET 200 https://registry.npmjs.org/@vue/compiler-core/-/compiler-core-3.3.4.tgz 532ms (cache miss)
+546 timing reifyNode:node_modules/@vue/compiler-core Completed in 559ms
+547 http fetch GET 200 https://registry.npmjs.org/qs/-/qs-6.11.2.tgz 518ms (cache miss)
+548 timing reifyNode:node_modules/qs Completed in 610ms
+549 http fetch GET 200 https://registry.npmjs.org/@vue/server-renderer/-/server-renderer-3.3.4.tgz 590ms (cache miss)
+550 timing reifyNode:node_modules/@vue/server-renderer Completed in 617ms
+551 http fetch GET 200 https://registry.npmjs.org/object-inspect/-/object-inspect-1.12.3.tgz 588ms (cache miss)
+552 timing reifyNode:node_modules/object-inspect Completed in 622ms
+553 http fetch GET 200 https://registry.npmjs.org/magic-string/-/magic-string-0.30.1.tgz 598ms (cache miss)
+554 timing reifyNode:node_modules/magic-string Completed in 625ms
+555 http fetch GET 200 https://registry.npmjs.org/@vue/compiler-dom/-/compiler-dom-3.3.4.tgz 598ms (cache miss)
+556 timing reifyNode:node_modules/@vue/compiler-dom Completed in 626ms
+557 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.4.27.tgz 605ms (cache miss)
+558 timing reifyNode:node_modules/postcss Completed in 639ms
+559 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.1.2.tgz 619ms (cache miss)
+560 timing reifyNode:node_modules/csstype Completed in 646ms
+561 http fetch GET 200 https://registry.npmjs.org/@vue/runtime-dom/-/runtime-dom-3.3.4.tgz 621ms (cache miss)
+562 timing reifyNode:node_modules/@vue/runtime-dom Completed in 648ms
+563 http fetch GET 200 https://registry.npmjs.org/@vue/compiler-sfc/-/compiler-sfc-3.3.4.tgz 720ms (cache miss)
+564 timing reifyNode:node_modules/@vue/compiler-sfc Completed in 753ms
+565 http fetch GET 200 https://registry.npmjs.org/vue/-/vue-3.3.4.tgz 774ms (cache miss)
+566 timing reifyNode:node_modules/vue Completed in 822ms
+567 http fetch GET 200 https://registry.npmjs.org/rollup/-/rollup-3.26.3.tgz 796ms (cache miss)
+568 timing reifyNode:node_modules/rollup Completed in 826ms
+569 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-1.4.0.tgz 792ms (cache miss)
+570 timing reifyNode:node_modules/axios Completed in 840ms
+571 http fetch GET 200 https://registry.npmjs.org/@vue/runtime-core/-/runtime-core-3.3.4.tgz 820ms (cache miss)
+572 timing reifyNode:node_modules/@vue/runtime-core Completed in 844ms
+573 http fetch GET 200 https://registry.npmjs.org/vite/-/vite-4.4.7.tgz 799ms (cache miss)
+574 timing reifyNode:node_modules/vite Completed in 845ms
+575 http fetch GET 200 https://registry.npmjs.org/@babel/parser/-/parser-7.22.7.tgz 894ms (cache miss)
+576 timing reifyNode:node_modules/@babel/parser Completed in 920ms
+577 http fetch GET 200 https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.18.17.tgz 922ms (cache miss)
+578 timing reifyNode:node_modules/@esbuild/linux-x64 Completed in 954ms
+579 http fetch GET 200 https://registry.npmjs.org/@inertiajs/core/-/core-1.0.9.tgz 1122ms (cache miss)
+580 timing reifyNode:node_modules/@inertiajs/core Completed in 1169ms
+581 http fetch GET 200 https://registry.npmjs.org/@inertiajs/vue3/-/vue3-1.0.9.tgz 1167ms (cache miss)
+582 timing reifyNode:node_modules/@inertiajs/vue3 Completed in 1215ms
+583 timing reify:unpack Completed in 1218ms
+584 timing reify:unretire Completed in 0ms
+585 timing build:queue Completed in 3ms
+586 timing build:link:node_modules/@babel/parser Completed in 3ms
+587 timing build:link:node_modules/esbuild Completed in 2ms
+588 timing build:link:node_modules/nanoid Completed in 2ms
+589 timing build:link:node_modules/vite Completed in 2ms
+590 timing build:link:node_modules/rollup Completed in 2ms
+591 timing build:link Completed in 3ms
+592 info run esbuild@0.18.17 postinstall node_modules/esbuild node install.js
+593 info run esbuild@0.18.17 postinstall { code: 0, signal: null }
+594 timing build:run:postinstall:node_modules/esbuild Completed in 55ms
+595 timing build:run:postinstall Completed in 55ms
+596 timing build:deps Completed in 62ms
+597 timing build Completed in 62ms
+598 timing reify:build Completed in 62ms
+599 timing reify:trash Completed in 2ms
+600 timing reify:save Completed in 32ms
+601 timing reify Completed in 6878ms
+602 silly ADD node_modules/@jridgewell/sourcemap-codec
+603 silly ADD node_modules/@vue/reactivity
+604 silly ADD node_modules/csstype
+605 silly ADD node_modules/@vue/runtime-core
+606 silly ADD node_modules/magic-string
+607 silly ADD node_modules/@vue/reactivity-transform
+608 silly ADD node_modules/@vue/compiler-ssr
+609 silly ADD node_modules/estree-walker
+610 silly ADD node_modules/@babel/parser
+611 silly ADD node_modules/@vue/compiler-core
+612 silly ADD node_modules/@vue/shared
+613 silly ADD node_modules/@vue/server-renderer
+614 silly ADD node_modules/@vue/runtime-dom
+615 silly ADD node_modules/@vue/compiler-sfc
+616 silly ADD node_modules/@vue/compiler-dom
+617 silly ADD node_modules/picomatch
+618 silly ADD node_modules/source-map-js
+619 silly ADD node_modules/nanoid
+620 silly ADD
+621 silly ADD
+622 silly ADD
+623 silly ADD
+624 silly ADD
+625 silly ADD
+626 silly ADD node_modules/@esbuild/linux-x64
+627 silly ADD
+628 silly ADD
+629 silly ADD
+630 silly ADD
+631 silly ADD
+632 silly ADD
+633 silly ADD
+634 silly ADD
+635 silly ADD
+636 silly ADD
+637 silly ADD
+638 silly ADD
+639 silly ADD
+640 silly ADD
+641 silly ADD
+642 silly ADD node_modules/rollup
+643 silly ADD node_modules/postcss
+644 silly ADD
+645 silly ADD node_modules/esbuild
+646 silly ADD node_modules/has-symbols
+647 silly ADD node_modules/has-proto
+648 silly ADD node_modules/has
+649 silly ADD node_modules/function-bind
+650 silly ADD node_modules/object-inspect
+651 silly ADD node_modules/get-intrinsic
+652 silly ADD node_modules/call-bind
+653 silly ADD node_modules/side-channel
+654 silly ADD node_modules/mime-db
+655 silly ADD node_modules/vite-plugin-full-reload
+656 silly ADD node_modules/picocolors
+657 silly ADD node_modules/delayed-stream
+658 silly ADD node_modules/mime-types
+659 silly ADD node_modules/combined-stream
+660 silly ADD node_modules/asynckit
+661 silly ADD node_modules/proxy-from-env
+662 silly ADD node_modules/form-data
+663 silly ADD node_modules/follow-redirects
+664 silly ADD node_modules/qs
+665 silly ADD node_modules/nprogress
+666 silly ADD node_modules/deepmerge
+667 silly ADD node_modules/lodash.isequal
+668 silly ADD node_modules/lodash.clonedeep
+669 silly ADD node_modules/@inertiajs/core
+670 silly ADD node_modules/vite
+671 silly ADD node_modules/laravel-vite-plugin
+672 silly ADD node_modules/axios
+673 silly ADD node_modules/vue
+674 silly ADD node_modules/@inertiajs/vue3
+675 timing command:install Completed in 6887ms
+676 notice
+676 notice New [33mminor[39m version of npm available! [31m9.7.2[39m -> [32m9.8.1[39m
+676 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v9.8.1[39m
+676 notice Run [32mnpm install -g npm@9.8.1[39m to update!
+676 notice
+677 verbose exit 0
+678 timing npm Completed in 7085ms
+679 info ok

@@ -1,0 +1,258 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.7.2
+2 info using node@v18.16.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/var/www/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/var/www/.home/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 6ms
+17 timing npm:load:configload Completed in 6ms
+18 timing config:load:flatten Completed in 1ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm i @vitejs/plugin-vue
+22 verbose argv "i" "@vitejs/plugin-vue"
+23 timing npm:load:setTitle Completed in 0ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:/var/www/.home/.npm/_logs/2023-07-27T15_16_01_869Z-
+26 verbose logfile /var/www/.home/.npm/_logs/2023-07-27T15_16_01_869Z-debug-0.log
+27 timing npm:load:logFile Completed in 6ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 27ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 51ms
+34 timing idealTree:userRequests Completed in 1ms
+35 silly idealTree buildDeps
+36 silly fetch manifest @vitejs/plugin-vue@*
+37 timing arborist:ctor Completed in 0ms
+38 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-vue 150ms (cache miss)
+39 silly fetch manifest vite@^4.0.0
+40 http fetch GET 200 https://registry.npmjs.org/vite 48ms (cache revalidated)
+41 silly fetch manifest @types/node@>= 14
+42 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 48ms (cache revalidated)
+43 silly fetch manifest less@*
+44 http fetch GET 200 https://registry.npmjs.org/less 32ms (cache revalidated)
+45 silly fetch manifest lightningcss@^1.21.0
+46 http fetch GET 200 https://registry.npmjs.org/lightningcss 696ms (cache revalidated)
+47 silly fetch manifest sass@*
+48 http fetch GET 200 https://registry.npmjs.org/sass 29ms (cache revalidated)
+49 silly fetch manifest stylus@*
+50 http fetch GET 200 https://registry.npmjs.org/stylus 26ms (cache revalidated)
+51 silly fetch manifest sugarss@*
+52 http fetch GET 200 https://registry.npmjs.org/sugarss 31ms (cache revalidated)
+53 silly fetch manifest postcss@^8.3.3
+54 http fetch GET 200 https://registry.npmjs.org/postcss 32ms (cache revalidated)
+55 silly fetch manifest terser@^5.4.0
+56 http fetch GET 200 https://registry.npmjs.org/terser 30ms (cache revalidated)
+57 silly fetch manifest vue@^3.2.36
+58 http fetch GET 200 https://registry.npmjs.org/vue 5ms (cache hit)
+59 silly placeDep ROOT @vitejs/plugin-vue@4.2.3 OK for:  want: *
+60 timing idealTree:#root Completed in 1206ms
+61 timing idealTree:node_modules/@vitejs/plugin-vue Completed in 0ms
+62 timing idealTree:buildDeps Completed in 1207ms
+63 timing idealTree:fixDepFlags Completed in 1ms
+64 timing idealTree Completed in 1264ms
+65 timing reify:loadTrees Completed in 1265ms
+66 timing reify:diffTrees Completed in 4ms
+67 silly reify moves {}
+68 timing reify:retireShallow Completed in 1ms
+69 timing reify:createSparse Completed in 3ms
+70 timing reify:loadBundles Completed in 0ms
+71 silly audit bulk request {
+71 silly audit   '@babel/parser': [ '7.22.7' ],
+71 silly audit   '@esbuild/android-arm': [ '0.18.17' ],
+71 silly audit   '@esbuild/android-arm64': [ '0.18.17' ],
+71 silly audit   '@esbuild/android-x64': [ '0.18.17' ],
+71 silly audit   '@esbuild/darwin-arm64': [ '0.18.17' ],
+71 silly audit   '@esbuild/darwin-x64': [ '0.18.17' ],
+71 silly audit   '@esbuild/freebsd-arm64': [ '0.18.17' ],
+71 silly audit   '@esbuild/freebsd-x64': [ '0.18.17' ],
+71 silly audit   '@esbuild/linux-arm': [ '0.18.17' ],
+71 silly audit   '@esbuild/linux-arm64': [ '0.18.17' ],
+71 silly audit   '@esbuild/linux-ia32': [ '0.18.17' ],
+71 silly audit   '@esbuild/linux-loong64': [ '0.18.17' ],
+71 silly audit   '@esbuild/linux-mips64el': [ '0.18.17' ],
+71 silly audit   '@esbuild/linux-ppc64': [ '0.18.17' ],
+71 silly audit   '@esbuild/linux-riscv64': [ '0.18.17' ],
+71 silly audit   '@esbuild/linux-s390x': [ '0.18.17' ],
+71 silly audit   '@esbuild/linux-x64': [ '0.18.17' ],
+71 silly audit   '@esbuild/netbsd-x64': [ '0.18.17' ],
+71 silly audit   '@esbuild/openbsd-x64': [ '0.18.17' ],
+71 silly audit   '@esbuild/sunos-x64': [ '0.18.17' ],
+71 silly audit   '@esbuild/win32-arm64': [ '0.18.17' ],
+71 silly audit   '@esbuild/win32-ia32': [ '0.18.17' ],
+71 silly audit   '@esbuild/win32-x64': [ '0.18.17' ],
+71 silly audit   '@inertiajs/core': [ '1.0.9' ],
+71 silly audit   '@inertiajs/vue3': [ '1.0.9' ],
+71 silly audit   '@vue/compiler-core': [ '3.2.36' ],
+71 silly audit   '@vue/compiler-dom': [ '3.2.36' ],
+71 silly audit   '@vue/compiler-sfc': [ '3.2.36' ],
+71 silly audit   '@vue/compiler-ssr': [ '3.2.36' ],
+71 silly audit   '@vue/reactivity': [ '3.2.36' ],
+71 silly audit   '@vue/reactivity-transform': [ '3.2.36' ],
+71 silly audit   '@vue/runtime-core': [ '3.2.36' ],
+71 silly audit   '@vue/runtime-dom': [ '3.2.36' ],
+71 silly audit   '@vue/server-renderer': [ '3.2.36' ],
+71 silly audit   '@vue/shared': [ '3.2.36' ],
+71 silly audit   asynckit: [ '0.4.0' ],
+71 silly audit   axios: [ '1.4.0' ],
+71 silly audit   'call-bind': [ '1.0.2' ],
+71 silly audit   'combined-stream': [ '1.0.8' ],
+71 silly audit   csstype: [ '2.6.21' ],
+71 silly audit   deepmerge: [ '4.3.1' ],
+71 silly audit   'delayed-stream': [ '1.0.0' ],
+71 silly audit   esbuild: [ '0.18.17' ],
+71 silly audit   'estree-walker': [ '2.0.2' ],
+71 silly audit   'follow-redirects': [ '1.15.2' ],
+71 silly audit   'form-data': [ '4.0.0' ],
+71 silly audit   fsevents: [ '2.3.2' ],
+71 silly audit   'function-bind': [ '1.1.1' ],
+71 silly audit   'get-intrinsic': [ '1.2.1' ],
+71 silly audit   has: [ '1.0.3' ],
+71 silly audit   'has-proto': [ '1.0.1' ],
+71 silly audit   'has-symbols': [ '1.0.3' ],
+71 silly audit   'laravel-vite-plugin': [ '0.7.8' ],
+71 silly audit   'lodash.clonedeep': [ '4.5.0' ],
+71 silly audit   'lodash.isequal': [ '4.5.0' ],
+71 silly audit   'magic-string': [ '0.25.9' ],
+71 silly audit   'mime-db': [ '1.52.0' ],
+71 silly audit   'mime-types': [ '2.1.35' ],
+71 silly audit   nanoid: [ '3.3.6' ],
+71 silly audit   nprogress: [ '0.2.0' ],
+71 silly audit   'object-inspect': [ '1.12.3' ],
+71 silly audit   picocolors: [ '1.0.0' ],
+71 silly audit   picomatch: [ '2.3.1' ],
+71 silly audit   postcss: [ '8.4.27' ],
+71 silly audit   'proxy-from-env': [ '1.1.0' ],
+71 silly audit   qs: [ '6.11.2' ],
+71 silly audit   rollup: [ '3.26.3' ],
+71 silly audit   'side-channel': [ '1.0.4' ],
+71 silly audit   'source-map': [ '0.6.1' ],
+71 silly audit   'source-map-js': [ '1.0.2' ],
+71 silly audit   'sourcemap-codec': [ '1.4.8' ],
+71 silly audit   vite: [ '4.4.7' ],
+71 silly audit   'vite-plugin-full-reload': [ '1.0.5' ],
+71 silly audit   vue: [ '3.2.36' ],
+71 silly audit   '@vitejs/plugin-vue': [ '4.2.3' ]
+71 silly audit }
+72 verbose reify failed optional dependency /var/www/node_modules/fsevents
+73 silly reify mark deleted [ '/var/www/node_modules/fsevents' ]
+74 verbose reify failed optional dependency /var/www/node_modules/@esbuild/win32-x64
+75 silly reify mark deleted [ '/var/www/node_modules/@esbuild/win32-x64' ]
+76 verbose reify failed optional dependency /var/www/node_modules/@esbuild/win32-ia32
+77 silly reify mark deleted [ '/var/www/node_modules/@esbuild/win32-ia32' ]
+78 verbose reify failed optional dependency /var/www/node_modules/@esbuild/win32-arm64
+79 silly reify mark deleted [ '/var/www/node_modules/@esbuild/win32-arm64' ]
+80 verbose reify failed optional dependency /var/www/node_modules/@esbuild/sunos-x64
+81 silly reify mark deleted [ '/var/www/node_modules/@esbuild/sunos-x64' ]
+82 verbose reify failed optional dependency /var/www/node_modules/@esbuild/openbsd-x64
+83 silly reify mark deleted [ '/var/www/node_modules/@esbuild/openbsd-x64' ]
+84 verbose reify failed optional dependency /var/www/node_modules/@esbuild/netbsd-x64
+85 silly reify mark deleted [ '/var/www/node_modules/@esbuild/netbsd-x64' ]
+86 verbose reify failed optional dependency /var/www/node_modules/@esbuild/linux-s390x
+87 silly reify mark deleted [ '/var/www/node_modules/@esbuild/linux-s390x' ]
+88 verbose reify failed optional dependency /var/www/node_modules/@esbuild/linux-riscv64
+89 silly reify mark deleted [ '/var/www/node_modules/@esbuild/linux-riscv64' ]
+90 verbose reify failed optional dependency /var/www/node_modules/@esbuild/linux-ppc64
+91 silly reify mark deleted [ '/var/www/node_modules/@esbuild/linux-ppc64' ]
+92 verbose reify failed optional dependency /var/www/node_modules/@esbuild/linux-mips64el
+93 silly reify mark deleted [ '/var/www/node_modules/@esbuild/linux-mips64el' ]
+94 verbose reify failed optional dependency /var/www/node_modules/@esbuild/linux-loong64
+95 silly reify mark deleted [ '/var/www/node_modules/@esbuild/linux-loong64' ]
+96 verbose reify failed optional dependency /var/www/node_modules/@esbuild/linux-ia32
+97 silly reify mark deleted [ '/var/www/node_modules/@esbuild/linux-ia32' ]
+98 verbose reify failed optional dependency /var/www/node_modules/@esbuild/linux-arm64
+99 silly reify mark deleted [ '/var/www/node_modules/@esbuild/linux-arm64' ]
+100 verbose reify failed optional dependency /var/www/node_modules/@esbuild/linux-arm
+101 silly reify mark deleted [ '/var/www/node_modules/@esbuild/linux-arm' ]
+102 verbose reify failed optional dependency /var/www/node_modules/@esbuild/freebsd-x64
+103 silly reify mark deleted [ '/var/www/node_modules/@esbuild/freebsd-x64' ]
+104 verbose reify failed optional dependency /var/www/node_modules/@esbuild/freebsd-arm64
+105 silly reify mark deleted [ '/var/www/node_modules/@esbuild/freebsd-arm64' ]
+106 verbose reify failed optional dependency /var/www/node_modules/@esbuild/darwin-x64
+107 silly reify mark deleted [ '/var/www/node_modules/@esbuild/darwin-x64' ]
+108 verbose reify failed optional dependency /var/www/node_modules/@esbuild/darwin-arm64
+109 silly reify mark deleted [ '/var/www/node_modules/@esbuild/darwin-arm64' ]
+110 verbose reify failed optional dependency /var/www/node_modules/@esbuild/android-x64
+111 silly reify mark deleted [ '/var/www/node_modules/@esbuild/android-x64' ]
+112 verbose reify failed optional dependency /var/www/node_modules/@esbuild/android-arm64
+113 silly reify mark deleted [ '/var/www/node_modules/@esbuild/android-arm64' ]
+114 verbose reify failed optional dependency /var/www/node_modules/@esbuild/android-arm
+115 silly reify mark deleted [ '/var/www/node_modules/@esbuild/android-arm' ]
+116 timing reifyNode:node_modules/fsevents Completed in 10ms
+117 timing reifyNode:node_modules/@esbuild/win32-x64 Completed in 10ms
+118 timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 10ms
+119 timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 10ms
+120 timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 9ms
+121 timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 9ms
+122 timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 9ms
+123 timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 9ms
+124 timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 9ms
+125 timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 9ms
+126 timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 9ms
+127 timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 10ms
+128 timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 10ms
+129 timing reifyNode:node_modules/@esbuild/linux-arm64 Completed in 9ms
+130 timing reifyNode:node_modules/@esbuild/linux-arm Completed in 9ms
+131 timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 9ms
+132 timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 9ms
+133 timing reifyNode:node_modules/@esbuild/darwin-x64 Completed in 9ms
+134 timing reifyNode:node_modules/@esbuild/darwin-arm64 Completed in 9ms
+135 timing reifyNode:node_modules/@esbuild/android-x64 Completed in 9ms
+136 timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 9ms
+137 timing reifyNode:node_modules/@esbuild/android-arm Completed in 9ms
+138 silly tarball no local data for @vitejs/plugin-vue@https://registry.npmjs.org/@vitejs/plugin-vue/-/plugin-vue-4.2.3.tgz. Extracting by manifest.
+139 http fetch GET 200 https://registry.npmjs.org/@vitejs/plugin-vue/-/plugin-vue-4.2.3.tgz 102ms (cache miss)
+140 timing reifyNode:node_modules/@vitejs/plugin-vue Completed in 117ms
+141 timing reify:unpack Completed in 117ms
+142 timing reify:unretire Completed in 1ms
+143 timing build:queue Completed in 1ms
+144 timing build:deps Completed in 2ms
+145 timing build Completed in 2ms
+146 timing reify:build Completed in 2ms
+147 timing reify:trash Completed in 30ms
+148 timing reify:save Completed in 28ms
+149 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 196ms
+150 timing auditReport:getReport Completed in 201ms
+151 silly audit report {}
+152 timing auditReport:init Completed in 0ms
+153 timing reify:audit Completed in 201ms
+154 timing reify Completed in 1479ms
+155 silly ADD node_modules/@vitejs/plugin-vue
+156 silly ADD
+157 silly ADD
+158 silly ADD
+159 silly ADD
+160 silly ADD
+161 silly ADD
+162 silly ADD
+163 silly ADD
+164 silly ADD
+165 silly ADD
+166 silly ADD
+167 silly ADD
+168 silly ADD
+169 silly ADD
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD
+175 silly ADD
+176 silly ADD
+177 silly ADD
+178 timing command:i Completed in 1486ms
+179 verbose exit 0
+180 timing npm Completed in 1640ms
+181 info ok
