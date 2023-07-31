@@ -1,5 +1,9 @@
 <?php
 
+use App\Models\Order;
+use App\Models\OrderStatus;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -15,5 +19,20 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
-    return Inertia::render('Home');
+    $order = Order::latest()->first();
+
+    return Inertia::render('Home', compact('order'));
+});
+
+Route::post('/status/update/{id}', function (Request $request, $id) {
+    $order = Order::find($id);
+    $order->{$request->transition}();
+
+    return redirect('/');
+});
+
+Route::post('/status/reset', function () {
+    Order::create();
+
+    return redirect('/');
 });

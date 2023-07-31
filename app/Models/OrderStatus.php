@@ -17,6 +17,7 @@ enum OrderStatus implements DefineStates
                 'approve' => self::Approved,
                 'reject' => self::Rejected,
             ],
+            default => [],
         };
     }
 
