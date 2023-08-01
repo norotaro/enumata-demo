@@ -19,7 +19,7 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
-    $order = Order::latest()->first();
+    $order = Order::latest()->firstOrCreate();
 
     return Inertia::render('Home', compact('order'));
 });
