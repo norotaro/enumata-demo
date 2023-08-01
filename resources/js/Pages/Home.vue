@@ -18,7 +18,7 @@ function isTransitionsAvailable() {
 
 <template>
   <main class="pt-8 pb-16">
-    <div class="mx-auto w-full max-w-2xl">
+    <div class="mx-auto w-full max-w-7xl">
       <div class="p6 shadow bg-white rounded">
         <div class="p-4 border-b border-gray-200">
           <h2 class="text-xl font-bold text-gray-800">Order Information</h2>
@@ -36,33 +36,22 @@ function isTransitionsAvailable() {
             </div>
             <div class="py-5 grid grid-cols-3 gap-4 px-6">
               <dt class="text-sm font-medium text-gray-500">
-                Customer
-              </dt>
-              <dd class="text-sm text-gray-900 col-span-2">
-                Customer name
-              </dd>
-            </div>
-            <div class="py-5 grid grid-cols-3 gap-4 px-6">
-              <dt class="text-sm font-medium text-gray-500">
-                Total
-              </dt>
-              <dd class="text-sm text-gray-900 col-span-2">
-                $1,000
-              </dd>
-            </div>
-            <div class="py-5 grid grid-cols-3 gap-4 px-6">
-              <dt class="text-sm font-medium text-gray-500">
-                Status
+                Current Status
               </dt>
               <dd class="text-sm text-gray-900 col-span-2">
                 <span
-                  class="bg-cyan-100 text-cyan-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-cyan-400 border border-cyan-400">
+                  class="bg-cyan-100 text-cyan-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded border border-cyan-400">
                   {{ order.status }}
                 </span>
               </dd>
             </div>
           </dl>
         </div>
+      </div>
+
+      <h2 class="mt-8 text-lg font-bold text-gray-800">State Machine</h2>
+      <div class="mt-2 shadow bg-white rounded">
+        <StateMachine :currentState="order.status"></StateMachine>
       </div>
 
       <h2 class="mt-8 text-lg font-bold text-gray-800">Transitions</h2>
@@ -82,8 +71,6 @@ function isTransitionsAvailable() {
                     </option>
                   </select>
                 </div>
-
-                <p class="text-red-500 text-sm">message</p>
               </div>
             </div>
             <div v-else class="grid grid-cols-1 gap-y-6 gap-x-4">
@@ -104,11 +91,6 @@ function isTransitionsAvailable() {
             </div>
           </form>
         </div>
-      </div>
-
-      <h2 class="mt-8 text-lg font-bold text-gray-800">State Machine</h2>
-      <div class="mt-2 shadow bg-white rounded">
-        <StateMachine :currentState="order.status"></StateMachine>
       </div>
     </div>
   </main>
